@@ -22,6 +22,12 @@
         "Entry"
         {
         "MsmKey" = "8:_00CB56C78EA9C81ACDFA4B54F9F61C99"
+        "OwnerKey" = "8:_5AE763656AF821734C53A64D27F800E4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_00CB56C78EA9C81ACDFA4B54F9F61C99"
         "OwnerKey" = "8:_497BCD71818E412CB52225C6515C3D54"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -215,6 +221,24 @@
         {
         "MsmKey" = "8:_4ED1B445DAC1DCA798D0734221DCF260"
         "OwnerKey" = "8:_2B35CC7A7DF927EE1785551ED108F30C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5AE763656AF821734C53A64D27F800E4"
+        "OwnerKey" = "8:_497BCD71818E412CB52225C6515C3D54"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5AE763656AF821734C53A64D27F800E4"
+        "OwnerKey" = "8:_6AE4916E1CAB4B794718ACC02B33D775"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5AE763656AF821734C53A64D27F800E4"
+        "OwnerKey" = "8:_E98EAF930FD142ECA2D7C17A3B367D04"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -706,6 +730,12 @@
         "Entry"
         {
         "MsmKey" = "8:_F798F547A82EFD19B7BA10C203E98B04"
+        "OwnerKey" = "8:_5AE763656AF821734C53A64D27F800E4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F798F547A82EFD19B7BA10C203E98B04"
         "OwnerKey" = "8:_497BCD71818E412CB52225C6515C3D54"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -851,6 +881,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_61524D22E865FA557C56BA8BEE6E1D7B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5AE763656AF821734C53A64D27F800E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1006,7 +1042,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.5"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.5.2"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=395269"
                 }
@@ -1319,6 +1355,37 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5AE763656AF821734C53A64D27F800E4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.BizTalk.Analytics.Common, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5AE763656AF821734C53A64D27F800E4"
+                    {
+                    "Name" = "8:Microsoft.BizTalk.Analytics.Common.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.BizTalk.Analytics.Common.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55E61B4F1E4455DA8724E32225DA8FF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -2010,7 +2077,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BizTalkMigrationTool"
         "ProductCode" = "8:{82016516-DA36-4576-8541-43E3D240E335}"
-        "PackageCode" = "8:{D5F7F897-7E45-494D-BE85-5025D186C8D5}"
+        "PackageCode" = "8:{B5ED7D5E-BAFF-4EB8-9909-2C62BE42BB80}"
         "UpgradeCode" = "8:{62D2F843-BA38-4F06-8302-74A727313CFE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -2531,7 +2598,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_497BCD71818E412CB52225C6515C3D54"
             {
-            "SourcePath" = "8:..\\RemoteOperations\\obj\\Release\\RemoteOperations.exe"
+            "SourcePath" = "8:..\\RemoteOperations\\obj\\Debug\\RemoteOperations.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F55E61B4F1E4455DA8724E32225DA8FF"
@@ -2560,7 +2627,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E98EAF930FD142ECA2D7C17A3B367D04"
             {
-            "SourcePath" = "8:..\\MigrationTool\\obj\\Release\\MigrationTool.exe"
+            "SourcePath" = "8:..\\MigrationTool\\obj\\Debug\\MigrationTool.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E103CABC3E1142CA95D05E0739FC670B"

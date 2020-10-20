@@ -15,88 +15,91 @@ using System.Xml.Serialization;
 // 
 
 
-/// <remarks/>
-[System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-[System.SerializableAttribute()]
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-[System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
-public partial class Servers {
-    
-    private string srcSqlInstanceField;
-    private string srcNodesField;
-    private string dstSqlInstanceField;
-    private string dstNodesField;
-    private string srcAppNodeField;
-    private string dstAppNodeField;
+namespace MigrationTool
+{
     /// <remarks/>
-    public string SrcSqlInstance {
-        get {
-            return this.srcSqlInstanceField;
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [XmlType(AnonymousType=true)]
+    [XmlRoot(Namespace="", IsNullable=false)]
+    public partial class Servers {
+    
+        private string srcSqlInstanceField;
+        private string srcNodesField;
+        private string dstSqlInstanceField;
+        private string dstNodesField;
+        private string srcAppNodeField;
+        private string dstAppNodeField;
+        /// <remarks/>
+        public string SrcSqlInstance {
+            get {
+                return this.srcSqlInstanceField;
+            }
+            set {
+                this.srcSqlInstanceField = value;
+            }
         }
-        set {
-            this.srcSqlInstanceField = value;
-        }
-    }
-    public string SrcNodes
-    {
-        get
+        public string SrcNodes
         {
-            return this.srcNodesField;
-        }
-        set
-        {
-            this.srcNodesField = value;
-        }
-    }    
-    /// <remarks/>    
+            get
+            {
+                return this.srcNodesField;
+            }
+            set
+            {
+                this.srcNodesField = value;
+            }
+        }    
+        /// <remarks/>    
 
-    public string DstSqlInstance
-    {
-        get
+        public string DstSqlInstance
         {
-            return this.dstSqlInstanceField;
+            get
+            {
+                return this.dstSqlInstanceField;
+            }
+            set
+            {
+                this.dstSqlInstanceField = value;
+            }
         }
-        set
-        {
-            this.dstSqlInstanceField = value;
-        }
-    }
 
-    public string DstNodes
-    {
-        get
+        public string DstNodes
         {
-            return this.dstNodesField;
+            get
+            {
+                return this.dstNodesField;
+            }
+            set
+            {
+                this.dstNodesField = value;
+            }
         }
-        set
-        {
-            this.dstNodesField = value;
-        }
-    }
 
-    public string DstAppNode
-    {
-        get
+        public string DstAppNode
         {
-            return this.dstAppNodeField;
+            get
+            {
+                return this.dstAppNodeField;
+            }
+            set
+            {
+                this.dstAppNodeField = value;
+            }
         }
-        set
-        {
-            this.dstAppNodeField = value;
-        }
-    }
 
-    public string SrcAppNode
-    {
-        get
+        public string SrcAppNode
         {
-            return this.srcAppNodeField;
-        }
-        set
-        {
-            this.srcAppNodeField = value;
+            get
+            {
+                return this.srcAppNodeField;
+            }
+            set
+            {
+                this.srcAppNodeField = value;
+            }
         }
     }
 }
