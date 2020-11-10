@@ -1,0 +1,119 @@
+﻿<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="virtualDirectoryName">
+		<value>Virtual Directory</value>
+	</data>
+	<data name="virtualDirectoryDesc">
+		<value>Enter virtual directory, including query string</value>
+	</data>
+	<data name="returnContentTypeName">
+		<value>Return Content Type</value>
+	</data>
+	<data name="returnContentTypeDesc">
+		<value>Enter content type to be used for the HTTP repsonse</value>
+	</data>
+	<data name="loopBackName">
+		<value>Loop Back</value>
+	</data>
+	<data name="loopBackDesc">
+		<value>Select loopback to route the request back as the response</value>
+	</data>
+	<data name="endpointCategory">
+		<value>Endpoint Configuration</value>
+	</data>
+	<data name="tuningCategory">
+		<value>Tuning Parameters</value>
+	</data>
+	<data name="errorThresholdName">
+		<value>Error Threshold</value>
+	</data>
+	<data name="destinationUrlName">
+		<value>Destination Url</value>
+	</data>
+	<data name="destinationUrlDesc">
+		<value>Enter the destination URI that identifies the Internet resource that the message will be sent to</value>
+	</data>
+	<data name="transmitLocationCategory">
+		<value>Transmit Location</value>
+	</data>
+	<data name="methodName">
+		<value>HTTP Method</value>
+	</data>
+	<data name="methodDesc">
+		<value>Enter the HTTP request method to use when contacting the Internet resource</value>
+	</data>
+	<data name="getName">
+		<value>GET</value>
+	</data>
+	<data name="headName">
+		<value>HEAD</value>
+	</data>
+	<data name="postName">
+		<value>POST</value>
+	</data>
+	<data name="timeoutName">
+		<value>Time out</value>
+	</data>
+	<data name="timeoutDesc">
+		<value>Enter the time-out value for the HTTP request</value>
+	</data>
+	<data name="contentTypeName">
+		<value>ContentType</value>
+	</data>
+	<data name="contentTypeDesc">
+		<value>Enter content type of the HTTP request</value>
+	</data>
+	<data name="authenticationTypeName">
+		<value>Authentication Type</value>
+	</data>
+	<data name="authenticationTypeDesc">
+		<value>Enter the type of Authentication to use to contact the Internet resource</value>
+	</data>
+	<data name="securityCategory">
+		<value>Security Settings</value>
+	</data>
+	<data name="kerberosName">
+		<value>Kerberos</value>
+	</data>
+	<data name="anonymousName">
+		<value>Anonymous</value>
+	</data>
+</root>

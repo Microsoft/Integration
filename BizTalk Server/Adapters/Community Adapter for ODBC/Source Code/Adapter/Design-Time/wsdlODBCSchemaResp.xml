@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<wsdl:definitions 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+xmlns:msbtssql="http://schemas.microsoft.com/BizTalk/2003">
+	<wsdl:types>
+	</wsdl:types>
+	<wsdl:message name="ODBCResponseMessage">
+		<wsdl:part name="parameters" element="RespParam" />
+	</wsdl:message>
+	<wsdl:portType name="ODBCResponse">
+		<wsdl:operation name="ODBCResponse">
+			<wsdl:input message="ODBCResponseMessage" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ODBCResponse" type="ODBCResponse">
+		<wsdl:operation name="ODBCResponse">
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ODBCService">
+		<wsdl:port name="ODBCResponse" binding="ODBCResponse">
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

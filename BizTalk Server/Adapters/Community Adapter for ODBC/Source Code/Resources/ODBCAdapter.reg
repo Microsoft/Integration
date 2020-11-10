@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\CLSID\{8d285509-9e4a-4702-a8df-821e0f937d2b}]
+@="ODBC Adapter"
+"AppID"="{ea74dc63-3c08-40a1-8737-d68ccaa0130f}"
+
+[HKEY_CLASSES_ROOT\CLSID\{8d285509-9e4a-4702-a8df-821e0f937d2b}\BizTalk]
+@="BizTalk"
+"TransPortType"="ODBC"
+"Constraints"=dword:0003d8b
+
+"OutboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A283}"
+"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"
+"InboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A281}"
+"ReceiveLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A280}"
+
+"OutboundEngineCLSID"="{884c48a8-0856-409a-bafa-344257874914}"
+"OutboundTypeName"="Microsoft.BizTalk.Adapters.ODBC.RunTime.ODBCTransmitAdapter.ODBCTransmitter"
+"OutboundAssemblyPath"="C:\\Program Files\\Microsoft BizTalk Server 2006\\SDK\\Samples\\AdaptersDevelopment\\ODBC\\Bin\\ODBCTransmitAdapter.dll"
+
+"InboundEngineCLSID"="{4b7d3786-5519-45e5-93e1-7ecfcd918c85}"
+"InboundTypeName"="Microsoft.BizTalk.Adapters.ODBC.RunTime.ODBCReceiveAdapter.ODBCReceiver"
+"InboundAssemblyPath"="C:\\Program Files\\Microsoft BizTalk Server 2006\\SDK\\Samples\\AdaptersDevelopment\\ODBC\\Bin\\ODBCReceiveAdapter.dll"
+
+"AdapterMgmtTypeName"="Microsoft.BizTalk.Adapters.ODBC.ODBCDesignTime.AdapterManagement"
+"AdapterMgmtAssemblyPath"="C:\\Program Files\\Microsoft BizTalk Server 2006\\SDK\\Samples\\AdaptersDevelopment\\ODBC\\Bin\\ODBCAdapterManagement.dll"
+
+"AliasesXML"="<AdapterAliasList><AdapterAlias>ODBC://</AdapterAlias></AdapterAliasList>"
+"PropertyNameSpace"="http://schemas.microsoft.com/ODBC"
+
+"ReceiveHandlerPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+"ReceiveLocationPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+"SendHandlerPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+"SendLocationPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+
+[HKEY_CLASSES_ROOT\CLSID\{8d285509-9e4a-4702-a8df-821e0f937d2b}\Implemented Categories]
+
+[HKEY_CLASSES_ROOT\CLSID\{8d285509-9e4a-4702-a8df-821e0f937d2b}\Implemented Categories\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}]

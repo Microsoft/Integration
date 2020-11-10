@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bigint" type="xs:long" minOccurs="0" />
+              <xs:element name="binary" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="bitf" type="xs:boolean" minOccurs="0" />
+              <xs:element name="char" type="xs:string" minOccurs="0" />
+              <xs:element name="dt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="dec" type="xs:decimal" minOccurs="0" />
+              <xs:element name="flt" type="xs:double" minOccurs="0" />
+              <xs:element name="img" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="in" type="xs:int" minOccurs="0" />
+              <xs:element name="mnry" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nchar" type="xs:string" minOccurs="0" />
+              <xs:element name="ntext" type="xs:string" minOccurs="0" />
+              <xs:element name="num" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nvarchar" type="xs:string" minOccurs="0" />
+              <xs:element name="real" type="xs:float" minOccurs="0" />
+              <xs:element name="smdt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="smallint" type="xs:short" minOccurs="0" />
+              <xs:element name="smallmon" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sqlVariant" msdata:DataType="System.Object, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="txt" type="xs:string" minOccurs="0" />
+              <xs:element name="timestamp" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="tinyint" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="unqid" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              <xs:element name="varbinary" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="varchar" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
